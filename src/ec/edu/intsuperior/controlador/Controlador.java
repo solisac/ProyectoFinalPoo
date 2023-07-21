@@ -24,5 +24,10 @@ public class Controlador {
     public void mostrarLoggin(){
         loggin.setVisible(true);
     }
-    
+      public void ocultarLoggin(){
+        loggin.setVisible(false);
+    }
+       public void ocultarInicio(){
+        inicio.setVisible(false);
+    }
 }
